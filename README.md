@@ -9,3 +9,5 @@ npm install body-parser
 npm install bcrypt
 
 bpm install nodemon
+
+postman download
