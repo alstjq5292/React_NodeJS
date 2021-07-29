@@ -1,5 +1,6 @@
 import React,{ useEffect } from 'react'
 import axios from 'axios';
+import { Button } from 'antd';
 //import { response } from 'express';
 
 function LandingPage(props) {
@@ -23,9 +24,9 @@ function LandingPage(props) {
         <div style={{display:'flex', justifyContent: 'center', alignItems: 'center', width: '100%', height: '100vh'}}>
             <h2>시작페이지</h2>
 
-            <button onClick={onClickHandler}>
+            <Button type = "primary" onClick={onClickHandler}>
                 로그아웃
-            </button>
+            </Button>
         </div>
     )
 }

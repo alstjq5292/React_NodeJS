@@ -5,7 +5,7 @@ import {
   Route,
   Link
 } from "react-router-dom";
-import LandingPage from './components/views/LandingPage/LandingPage'
+import HomePage from './components/views/Home/Home';
 import LoginPage from './components/views/LoginPage/LoginPage';
 import RegisterPage from './components/views/RegisterPage/RegisterPage';
 
@@ -14,7 +14,7 @@ function App() {
     <Router>
       <div>
         <Switch>
-          <Route exact path="/" component={LandingPage}>
+          <Route exact path="/" component={HomePage}>
           </Route>
           <Route exact path="/login" component={LoginPage}>
           </Route>
